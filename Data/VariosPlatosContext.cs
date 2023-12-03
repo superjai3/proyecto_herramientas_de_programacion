@@ -11,7 +11,7 @@ namespace proyecto.Data
     {
         public VariosPlatosContext (DbContextOptions<VariosPlatosContext> options)
             : base(options)
-        {
+        { 
         }
 
         public DbSet<proyecto.Models.Plato> Plato { get; set; } = default!;
